@@ -1,4 +1,6 @@
 # Phone Number Geolocation Project
+# Disclaimer
+This is for educational purposes only
 
 # Overview
 This project provides a Python application that allows users to geolocate a phone number. By inputting a phone number, the application retrieves the location and service provider associated with that number. The result is then visualized on an interactive map using Folium.
@@ -71,5 +73,6 @@ folium.Marker([lat, lng], popup=location).add_to(myMap)
 
 # Save the map to an HTML file
 myMap.save('mylocation.html')
+
 # License
 This project is licensed under the MIT License - see the LICENSE file for details.
